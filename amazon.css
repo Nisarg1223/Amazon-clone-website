@@ -1,11 +1,9 @@
-/* Base Styles */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     line-height: 1.5;
 }
 
-/* Navbar */
 .navbar {
     background-color: #232f3e;
     color: white;
@@ -30,7 +28,7 @@ body {
 }
 
 .logo {
-    background-image: url('amazon_logo.png'); /* Replace with your logo path */
+    background-image: url('amazon_logo.png');
     background-size: contain;
     background-repeat: no-repeat;
     height: 50px;
@@ -134,7 +132,6 @@ body {
     margin-right: 5px;
 }
 
-/* Panel */
 .panel {
     background-color: #37475a;
     color: white;
@@ -171,9 +168,8 @@ body {
     margin-right: 20px;
 }
 
-/* Hero Section */
 .hero-section {
-    background-image: url('hero_image.jpg'); /* Replace with your hero image path */
+    background-image: url('hero_image.jpg');
     background-size: cover;
     background-position: center;
     height: 350px;
@@ -199,7 +195,6 @@ body {
     text-decoration: none;
 }
 
-/* Shop Section */
 .shop-section {
     display: flex;
     flex-wrap: wrap;
@@ -219,36 +214,38 @@ body {
 .box-img {
     height: 300px;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
 .box-img2 {
-    background-image: url('box2_image.jpg'); /* Replace with your image path */
+    background-image: url('box2_image.jpg');
 }
 
 .box-img3 {
-    background-image: url('box3_image.jpg'); /* Replace with your image path */
+    background-image: url('box3_image.jpg');
 }
 
 .box-img4 {
-    background-image: url('box4_image.jpg'); /* Replace with your image path */
+    background-image: url('box4_image.jpg');
 }
 
 .box-img5 {
-    background-image: url('box5_image.jpg'); /* Replace with your image path */
+    background-image: url('box5_image.jpg');
 }
 
 .box-img6 {
-    background-image: url('box6_image.jpg'); /* Replace with your image path */
+    background-image: url('box6_image.jpg');
 }
 
 .box-img7 {
-    background-image: url('box7_image.jpg'); /* Replace with your image path */
+    background-image: url('box7_image.jpg');
 }
 
 .box-img8 {
-    background-image: url('box8_image.jpg'); /* Replace with your image path */
+    background-image: url('box8_image.jpg');
 }
 
 .box-content {
@@ -268,7 +265,6 @@ body {
     font-size: 0.9rem;
 }
 
-/* Footer */
 .foot-panel {
     background-color: #37475a;
     color: white;
@@ -312,12 +308,12 @@ body {
     border-top: 0.5px solid white;
     height: 70px;
     display: flex;
-    justify-content: center; /* Center the logo */
-    align-items: center; /* Vertically center the logo */
+    justify-content: center;
+    align-items: center;
 }
 
 .logo2 {
-    background-image: url("logooo.png"); /* Replace with your white logo path */
+    background-image: url("logooo.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 50px;
@@ -343,9 +339,6 @@ body {
     margin-top: 5px;
 }
 
-/* Responsive Design */
-
-/* For tablets and larger phones (max-width: 768px) */
 @media screen and (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -375,7 +368,7 @@ body {
     }
 
     .panel {
-        display: none; /* Hide the panel on smaller screens, consider a mobile menu */
+        display: none;
     }
 
     .hero-section {
@@ -411,7 +404,6 @@ body {
     }
 }
 
-/* For smaller phones (max-width: 480px) */
 @media screen and (max-width: 480px) {
     .nav-address .add-first,
     .nav-signin .nav-first,
@@ -459,4 +451,3 @@ body {
         font-size: 0.75rem;
     }
 }
- 
